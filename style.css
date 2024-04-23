@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: #1A1A1A;
+    font-size: 16px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: #0D0D0D;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.novadoLogo {
+    margin-bottom: 9px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    gap: 10px;
+}
+
+.search {
+    width: 568px;
+    padding: 14px 16px;
+    color: #808080;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1px solid #0D0D0D;
+    background-color: #1A1A1A;
+    margin-top: -27px;
+}
+
+.cta {
+    background-color: #1E6F9F;
+    padding: 11px 16px;
+    font-size: 16px;
+    color: #F2F2F2;
+    border-radius: 8px;
+    border: none;
+    margin-top: -27px;
+}
+
+.plus-icon {
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+.tasks-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-top: 90px;
+    height: 310px;
+    width: 700px;
+}
+
+.task-titles-container {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.tasks-title {
+    color: #4EA8DE;
+}
+
+.tasks-number {
+    background-color: #333333;
+    color:#D9D9D9;
+    padding: 2px 8px 2px 8px;
+    border-radius: 999px;
+    margin-left: 5px;
+}
+
+.finished {
+    color: #8284FA;
+}
+
+.finished-number {
+    background-color: #333333;
+    color:#D9D9D9;
+    padding: 2px 8px 2px 8px;
+    border-radius: 999px;
+    margin-left: 5px;
+}
+
+.tasks-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid #333333;
+    margin-top: -115px;
+    width: 680px;
+    border-radius: 8px;
+}
+
+.tasks-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #808080;
+    margin-top: 20px;
+    line-height: 22.4px;
+    width: 560px;
+}
+
+.tasks-box p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.tasks-box span {
+    margin-top: 5px;
+    font-weight: 400;
+    text-align: center;
+}
