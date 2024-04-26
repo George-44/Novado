@@ -107,20 +107,19 @@ body {
     margin-left: 5px;
 }
 
-.tasks-box {
+.taskbox {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-top: 1px solid #333333;
     margin-top: -115px;
-    width: 680px;
+    width: 675px;
     border-radius: 8px;
 }
 
 .tasks-text-container {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #808080;
@@ -129,13 +128,38 @@ body {
     width: 560px;
 }
 
-.tasks-box p {
+.taskbox p {
     font-weight: 700;
     font-size: 18px;
 }
 
-.tasks-box span {
+.taskbox span {
     margin-top: 5px;
     font-weight: 400;
     text-align: center;
+}
+
+.tasks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 700px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #333333;
+    margin-top: -200px;
+}
+
+.check-logo {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trash-logo {
+    margin-left: 510px;
+}
+
+.tasks p {
+    color: #F2F2F2;
+    font-weight: 400;
 }

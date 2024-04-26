@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="header-container">
@@ -17,21 +16,22 @@
     <div class="main-container">  
         <div class="input-container">
             <input class="search" type="search" placeholder="ცხოვრების რა ნაწილის დაგეგმვა გსურს ?">
-            <button onclick="addTask()" id="btn" class="cta">დამატება <img class="plus-icon" src="Logos/plus.png" alt="plus-icon"></button>
+            <button id="btn" class="cta">დამატება <img class="plus-icon" src="Logos/plus.png" alt="plus-icon"></button>
         </div>
         <div class="tasks-container">
             <div class="task-titles-container">
-                <span class="tasks-title">დავალებები <span class="tasks-number">0</span></span>
+                <span class="tasks-title">დავალებები <span id="taskNum" class="tasks-number">0</span></span>
                 <span class="finished">დასრულებული <span class="finished-number">0</span></span>
             </div>    
-            <div class="tasks-box" id="taskBox">
-                <img src="Logos/Clipboard.png" alt="Clipboard">
+            <div class="taskbox">
+                <img class="img" src="Logos/Clipboard.png" alt="Clipboard">
                 <div class="tasks-text-container">
                     <p>დავალებები ჯერ არ გაქვთ</p>
                     <span>შექმენით დავალებები და დაიწყეთ თქვენი ცხოვრების დაორგანიზება ჩვენთან ერთად</span>
                 </div>    
             </div>
         </div>
-    </div>        
+    </div> 
+    <script src="script.js"></script>       
 </body>
 </html>
